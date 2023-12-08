@@ -6,6 +6,8 @@
 
 > Provisions a fungible cloud development environment for testing &amp; prototyping.   
 
+</div>
+
 ## Introduction
 
 <div align="justify">
