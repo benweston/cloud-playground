@@ -1,17 +1,17 @@
 #!/bin/bash
 ####################################################################################
-#
-# Create Google Cloud project
-#
-# By Ben Weston
-# Version 1.0
-# Dec 2023
-#
-# Usage instructions:
-# 1. Assumes user is already authenticated to their Google Cloud account
-# 2. Grant execute permissions to file (ie. sudo chmod +x ./project-create)
-# 3. Run file ./project-create
-#
+#                                                                                  #
+# Create Google Cloud project                                                      #
+#                                                                                  #
+# By Ben Weston                                                                    #
+# Version 1.0                                                                      #
+# Dec 2023                                                                         #
+#                                                                                  #
+# Usage instructions:                                                              #
+# 1. Assumes user is already authenticated to their Google Cloud account           #
+# 2. Grant execute permissions to file (ie. sudo chmod +x ./project-create)        #
+# 3. Run file ./project-create                                                     #
+#                                                                                  #
 ####################################################################################
 
 # Greet user
