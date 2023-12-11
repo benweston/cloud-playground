@@ -32,7 +32,11 @@ echo '##########################################################################
 # Prompt for user input
 read Project_ID
 
-# Create project
-gcloud projects create $Project_ID \
---enable-cloud-apis \
---name "$Project_ID"
+# Create function; call function
+create_project () {
+  gcloud projects create $Project_ID \
+  --enable-cloud-apis \
+  --name "$Project_ID"
+}
+
+create_project
