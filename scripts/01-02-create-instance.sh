@@ -15,8 +15,9 @@
 #    called in the create_instance function                                        #
 # 3. You'll need to obtain your project number; create a 2nd global variable       #
 #    for Project_Number, which will be called in the --service-account flag        #
-# 4. Grant execute permissions to file (ie. sudo chmod +x ./create-instance.sh)    #
-# 5. Run file ./create-instance.sh                                                 #
+# 4. Grant execute permissions to file                                             #
+#    (ie. sudo chmod +x ./01-02-create-instance.sh)                                #
+# 5. Run file ./01-02-create-instance.sh                                           #
 #                                                                                  #
 ####################################################################################
 
