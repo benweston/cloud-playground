@@ -2,7 +2,7 @@
 
 # Server Playground
 
-<div align="left">
+<div align="justify">
 
 > Provisions a selection of Linux virtual machines running on Google Cloud Compute Engine VM instances, for learning and/or development activities.   
 
