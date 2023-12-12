@@ -7,10 +7,18 @@
 # Version 1.0                                                                      #
 # Dec 2023                                                                         #
 #                                                                                  #
-# Usage instructions:                                                              #
+# USAGE INSTRUCTIONS:                                                              #
+#                                                                                  #
 # 1. Assumes user is already authenticated to their Google Cloud account           #
-# 2. Grant execute permissions to file (ie. sudo chmod +x ./project-create)        #
-# 3. Run file ./project-create                                                     #
+# 2. Before you proceed, create a global variable to hold your Google              #
+#    Cloud billing account ID.  ie:                                                #
+#                                                                                  #
+#    export billing_account_id=YOUR-BILLING-ACCOUNT-ID                             #
+#                                                                                  #
+#    The variable will be referenced in the link_billing function                  #
+#    DO NOT HARDCODE YOUR BILLING ACCOUNT!!!                                       #
+# 3. Grant execute permissions to file (ie. sudo chmod +x ./project-create)        #
+# 4. Run file ./project-create                                                     #
 #                                                                                  #
 ####################################################################################
 
