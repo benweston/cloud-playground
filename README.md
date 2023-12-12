@@ -15,7 +15,7 @@
 All current & upcoming work is captured within the following project:   
 | Project Name | Description |
 | :----- | :----- |
-| [Cloud Playground](https://github.com/users/benweston/projects/3/views/1) | Provisions a fungible cloud development environment for testing &amp; prototyping. |
+| [Server Playground](https://github.com/users/benweston/projects/3/views/1) | Provisions a fungible cloud development environment for testing &amp; prototyping. |
 
 </div>
 
