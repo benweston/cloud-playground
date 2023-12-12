@@ -1,4 +1,6 @@
-![banner-image](https://github.com/benweston/cloud-playground/blob/main/assets/banner-image.png)
+<div align="center">
+    <img src="https://github.com/benweston/server-playground/blob/main/assets/banner-image.png" alt="Server Racks" width="900" height="70" />
+</div>
 
 # Server Playground
 
