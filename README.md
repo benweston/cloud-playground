@@ -4,7 +4,7 @@
 
 <div align="justify">
 
-> Provisions a selection of Linux virtual machines running on Google Cloud Compute Engine VM instances, for learning and/or development activities.   
+> Provisions a selection of Linux virtual machines running on Google Cloud [Compute Engine](https://cloud.google.com/compute/?hl=en) VM instances, for learning and/or development activities.   
 
 </div>
 
