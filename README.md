@@ -32,6 +32,7 @@ All current & upcoming work is captured within the following project:
 </div>
 
 <div align="left">
-    Banner taken from photo by <a href="https://unsplash.com/@growtika?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Growtika</a> on
-    <a href="https://unsplash.com/photos/diagram-k5AxNUn4c5o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    Banner taken from photo by <a href="https://unsplash.com/@tvick?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Taylor Vick</a> on
+    <a href="https://unsplash.com/photos/cable-network-M5tzZtFCOfs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 </div>
+
