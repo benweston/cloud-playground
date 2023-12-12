@@ -17,8 +17,8 @@
 #                                                                                  #
 #    The variable will be referenced in the link_billing function                  #
 #    DO NOT HARDCODE YOUR BILLING ACCOUNT!!!                                       #
-# 3. Grant execute permissions to file (ie. sudo chmod +x ./project-create)        #
-# 4. Run file ./project-create                                                     #
+# 3. Grant execute permissions to file (ie. sudo chmod +x ./project-create.sh)     #
+# 4. Run file ./project-create.sh                                                  #
 #                                                                                  #
 ####################################################################################
 
