@@ -14,6 +14,30 @@
 #                                                                                  #
 ####################################################################################
 
+# Create "project creation" function 
+create_project(){
+  gcloud projects create $Project_ID \
+  --enable-cloud-apis \
+  --name "$Project_ID"
+}
+
+# Create "set project" function
+set_project(){
+  gcloud config set project $Project_ID
+}
+
+# Create billing link function
+link_billing(){
+  gcloud billing projects link $Project_ID \
+  --billing-account $billing_account_id
+}
+
+# Create "Enable Compute Engine APIs" function
+enable_apis(){
+  echo "Enabling Compute Engine APIs, this may take a short while..." && \
+  gcloud services enable compute.googleapis.com
+}
+
 # Greet user
 clear && \
 echo '###############################################################################'
@@ -32,11 +56,14 @@ echo '##########################################################################
 # Prompt for user input
 read Project_ID
 
-# Create function; call function
-create_project () {
-  gcloud projects create $Project_ID \
-  --enable-cloud-apis \
-  --name "$Project_ID"
-}
-
+# Call project creation function
 create_project
+
+# Call set project function
+set_project
+
+# Call link billing function
+link_billing
+
+# Call enable APIs function
+enable_apis
