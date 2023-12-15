@@ -1,12 +1,12 @@
 <div align="center">
-    <img src="https://github.com/benweston/server-playground/blob/main/assets/banner-image.png" alt="Server Racks" width="900" height="70" />
+    <img src="https://github.com/benweston/cloud-playground/blob/main/assets/banner-image.png" alt="Server Racks" width="900" height="70" />
 </div>
 
-# Server Playground
+# Cloud Playground
 
 <div align="justify">
 
-> Provisions a selection of Linux virtual machines running on Google Cloud [Compute Engine](https://cloud.google.com/compute/?hl=en) VM instances, for learning and/or development activities.   
+> Provisions a development environment on [Google Cloud](https://cloud.google.com/?hl=en) using [Terraform](https://www.terraform.io/) IaC for learning and/or development activities.   
 
 </div>
 
@@ -17,7 +17,7 @@
 All current & upcoming work is captured within the following project:   
 | Project Name | Description |
 | :----- | :----- |
-| [Server Playground](https://github.com/users/benweston/projects/3/views/1) | Provisions a fungible cloud development environment for testing &amp; prototyping. |
+| [Cloud Playground](https://github.com/users/benweston/projects/3/views/1) | Provisions a fungible cloud development environment for testing &amp; prototyping. |
 
 </div>
 
