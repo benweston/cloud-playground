@@ -13,6 +13,7 @@
  #    Cloud billing account ID.  ie:
  # 
  #    export billing_account_id=YOUR-BILLING-ACCOUNT-ID
+ # 
  #    The variable will be referenced in the link_billing function
  #    DO NOT HARDCODE YOUR BILLING ACCOUNT!!!
  # 3. Grant execute permissions to file
