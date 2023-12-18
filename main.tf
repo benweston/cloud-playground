@@ -10,5 +10,6 @@ terraform {
 provider "google" {
   project     = ""
   region      = ""
+  zone        = ""
   credentials = file("")
 }
