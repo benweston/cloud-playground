@@ -45,6 +45,14 @@ enable_apis(){
   gcloud services enable compute.googleapis.com
 }
 
+# Create quit program on q function
+quit_program(){
+  if [ $Project_ID == 'q' ]
+  then
+    exit
+  fi
+}
+
 # Greet user
 clear && \
 echo '###############################################################################'
@@ -56,12 +64,15 @@ echo '#                                                                         
 echo '# (Project ID can have lowercase letters, digits or hyphens).                 #'
 echo '# (It must start with a lowercase letter and end with a letter or number).    #'
 echo '#                                                                             #'
-echo '# ENTER PROJECT NAME:                                                         #'
+echo '# ENTER PROJECT NAME (or q to quit program):                                  #'
 echo '#                                                                             #'
 echo '###############################################################################'
 
 # Prompt for user input
 read Project_ID
+
+# Call quit program on q function
+quit_program
 
 # Call project creation function
 create_project
