@@ -23,19 +23,19 @@
 
 # Create "project creation" function 
 create_project(){
-  gcloud projects create $Project_ID \
+  gcloud projects create $project_id \
   --enable-cloud-apis \
-  --name "$Project_ID"
+  --name "$project_id"
 }
 
 # Create "set project" function
 set_project(){
-  gcloud config set project $Project_ID
+  gcloud config set project $project_id
 }
 
 # Create billing link function
 link_billing(){
-  gcloud billing projects link $Project_ID \
+  gcloud billing projects link $project_id \
   --billing-account $billing_account_id
 }
 
@@ -47,7 +47,7 @@ enable_apis(){
 
 # Create quit program on q function
 quit_program(){
-  if [ $Project_ID == 'q' ]
+  if [ $project_id == 'q' ]
   then
     exit
   fi
@@ -69,7 +69,7 @@ echo '#                                                                         
 echo '###############################################################################'
 
 # Prompt for user input
-read Project_ID
+read project_id
 
 # Call quit program on q function
 quit_program
