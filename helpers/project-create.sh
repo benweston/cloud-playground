@@ -55,18 +55,13 @@ quit_program(){
 
 # Greet user
 clear && \
-echo '###############################################################################'
-echo '#                                                                             #'
-echo '# Welcome!  The following action will create a project                        #'
-echo '# in your Google Cloud account.  Please enter the name                        #'
-echo '# you wish to give the project                                                #'
-echo '#                                                                             #'
-echo '# (Project ID can have lowercase letters, digits or hyphens).                 #'
-echo '# (It must start with a lowercase letter and end with a letter or number).    #'
-echo '#                                                                             #'
-echo '# ENTER PROJECT NAME (or q to quit program):                                  #'
-echo '#                                                                             #'
-echo '###############################################################################'
+printf "Welcome!  The following action will create a project
+in your Google Cloud account.  Please enter the name
+you wish to give the project \n
+(Project ID can have lowercase letters, digits or hyphens).
+(It must start with a lowercase letter and end with a letter or number). \n
+ENTER PROJECT NAME (or q to quit program): \n
+"
 
 # Prompt for user input
 read project_id
