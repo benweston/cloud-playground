@@ -1,27 +1,24 @@
 #!/bin/bash
-####################################################################################
-#                                                                                  #
-# Create Google Cloud project                                                      #
-#                                                                                  #
-# By Ben Weston                                                                    #
-# Version 1.0                                                                      #
-# Dec 2023                                                                         #
-#                                                                                  #
-# USAGE INSTRUCTIONS:                                                              #
-#                                                                                  #
-# 1. Assumes user is already authenticated to their Google Cloud account           #
-# 2. Before you proceed, create a global variable to hold your Google              #
-#    Cloud billing account ID.  ie:                                                #
-#                                                                                  #
-#    export billing_account_id=YOUR-BILLING-ACCOUNT-ID                             #
-#                                                                                  #
-#    The variable will be referenced in the link_billing function                  #
-#    DO NOT HARDCODE YOUR BILLING ACCOUNT!!!                                       #
-# 3. Grant execute permissions to file                                             #
-#    (ie. sudo chmod +x ./project-create.sh)                                       #
-# 4. Run file ./project-create.sh                                                  #
-#                                                                                  #
-####################################################################################
+###
+ # Create Google Cloud project
+ # 
+ # By Ben Weston
+ # Version 1.0
+ # Dec 2023
+ # 
+ # USAGE INSTRUCTIONS:
+ # 
+ # 1. Assumes user is already authenticated to their Google Cloud account
+ # 2. Before you proceed, create a global variable to hold your Google
+ #    Cloud billing account ID.  ie:
+ # 
+ #    export billing_account_id=YOUR-BILLING-ACCOUNT-ID
+ #    The variable will be referenced in the link_billing function
+ #    DO NOT HARDCODE YOUR BILLING ACCOUNT!!!
+ # 3. Grant execute permissions to file
+ #    (ie. sudo chmod +x ./project-create.sh)
+ # 4. Run file ./project-create.sh
+ ##
 
 # Create "project creation" function 
 create_project(){
