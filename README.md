@@ -12,7 +12,7 @@
 
 ## License
 
-<div align="justify">
+<div align="left">
 
 The Cloud Playground repository contents are provided under the [MIT License](https://github.com/benweston/cloud-playground/blob/main/LICENSE).   
 Banner image taken from photo by [Taylor Vick](https://unsplash.com/@tvick?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/cable-network-M5tzZtFCOfs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) under the [Unsplash License](https://unsplash.com/license).   
