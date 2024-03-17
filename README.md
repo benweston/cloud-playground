@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/benweston/cloud-playground/blob/main/assets/banner-image.png" alt="Server Racks" width="900" height="90" />
+    <img src="https://github.com/benweston/cloud-playground/blob/main/img/banner-image.png" alt="Server Racks" width="900" height="90" />
 </div>
 
 # Cloud Playground
